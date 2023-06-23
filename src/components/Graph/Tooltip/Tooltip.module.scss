@@ -1,0 +1,36 @@
+@import "../../../styles/values";
+
+.tooltip {
+  cursor: default;
+  width: 250px;
+  display: none;
+  padding: 15px;
+  background-color: $white;
+  color: $black2;
+  opacity: 0.85;
+  position: absolute;
+  bottom: -30px;
+  left: 120px
+}
+
+.active {
+  display: block;
+}
+
+.info {
+  margin: 4px 0;
+}
+
+.title {
+  font-size: 14px;
+  margin: 0 0 1px;
+}
+
+.amount {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.orangeFont {
+  color: $orange;
+}
