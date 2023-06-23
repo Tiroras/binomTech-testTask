@@ -1,5 +1,5 @@
 import React, { memo, useRef, useEffect } from 'react'
-import styles from './Canvas.module.scss'
+import styles from './styles.module.scss'
 import { drawDiagram } from '../../../utils/drawDiagram'
 
 interface IProps {

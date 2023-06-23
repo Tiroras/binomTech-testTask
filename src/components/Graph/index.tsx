@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './Graph.module.scss'
+import styles from './styles.module.scss'
 import { Tooltip } from './Tooltip'
 import { Canvas } from './Canvas'
 

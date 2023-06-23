@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import styles from './Tooltip.module.scss'
+import styles from './styles.module.scss'
 
 interface IProps {
   fact: number
